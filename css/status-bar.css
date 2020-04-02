@@ -1,0 +1,14 @@
+.status-bar {
+  display: flex; /*한줄 정렬을 만들기 위해*/
+  justify-content: space-between; /*2개 컬럼을 멀리 떨어트리기*/
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+
+.status-bar i {
+  font-size: 16px;
+}
+
+.status-bar .status-bar_battery-level {
+  margin-left: 5px;
+}

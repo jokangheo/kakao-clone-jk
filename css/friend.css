@@ -1,0 +1,68 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__profile {
+  width: 50px;
+  border-radius: 35%;
+}
+
+.friend__profile.g-profile {
+  width: 70px;
+}
+
+/*띄어쓰기 있는 클래스와 없는 클래스 차이? */
+.friend__profile.m-profile {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__profile {
+  margin-right: 15px;
+}
+
+.friend__content .friend_name {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.friend__content .friend_bottom,
+.friend__content .friend_status,
+.friend .chat__timestamp {
+  opacity: 0.7;
+}
+
+.friend__content .friend_bottom {
+  font-size: 14px;
+}
+
+.friend__content .friend_status,
+.friend .chat__timestamp {
+  font-size: 12px;
+}
+
+.friend .friend__music {
+  border: 2px solid #01b942;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.friend__music span {
+  opacity: 0.6;
+}
+
+.friend__music i {
+  font-size: 8px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* 2.9 Find Screen할 차례 */
